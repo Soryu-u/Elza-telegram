@@ -1,0 +1,21 @@
+{
+  "name": "elzabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "elza.js",
+  "scripts": {
+    "start": "electron."
+  },
+  "author": "Soryu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "brain.js": "@2.0.0-alpha.9",
+    "cheerio": "^1.0.0-rc.3",
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0",
+    "telegraf": "^3.38.0"
+  }
+}
