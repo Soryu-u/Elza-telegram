@@ -1,4 +1,4 @@
-import token from './Token.js'
+const token = "654565607:AAE51bgWCpNJGYaXeu5HXLwYRSd4tPxCWKo";
 
 const TelegramBot = require('node-telegram-bot-api');
 
@@ -129,14 +129,6 @@ let userSanta = [];
               text: 'Доллар',
               callback_data: 'USD'
             },
-            {
-              text: 'Рубли',
-              callback_data: 'RUR'
-            },
-            {
-              text: 'Биткоин',
-              callback_data: 'BTC'
-            }
           ]
         ]
       }
@@ -151,9 +143,7 @@ let userSanta = [];
       const flag = {
         'EUR': '🇪🇺',
         'USD': '🇺🇸',
-        'RUR': '🇷🇺',
         'UAH': '🇺🇦',
-        'BTC': '₿'
       }
       let md = `
       *${flag[result.ccy]} ${result.ccy} 💱 ${result.base_ccy} ${flag[result.base_ccy]}*
